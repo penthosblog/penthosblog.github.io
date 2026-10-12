@@ -1,5 +1,5 @@
 ---
-title: "## NOISEGEK y SURSHAPE"
+title: NOISEGEK y SURSHAPE
 date: 2026-10-12
 tipo: bitácora
 published: true
