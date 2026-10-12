@@ -4,8 +4,6 @@ date: 2026-10-12
 tipo: bitácora
 published: true
 ---
-## NOISEGEK y SURSHAPE
-
 Llevaba años juntando aparatos para hacer ruido (mixers, el TEYUN Q-12, el MONOLOGUE) y usando software de otros. Estos meses hice mis propias herramientas. Son tres programas sobre un mismo motor.
 
 **NOISEGEK**: plugin de efecto (VST3, CLAP y JSFX para REAPER), Windows. Toma una señal y la procesa: módulos de distorsión, generadores de ruido (blanco, rosa, browniano, dust, LFSR), filtro, compuerta secuenciada, carriles de modulación, realimentación, seguidor de envolvente y apertura estéreo.
