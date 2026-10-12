@@ -1,41 +1,41 @@
 ---
-title: "ya no persigue"
+title: ya no persigue
 date: 2025-05-25
 tipo: poesía
+published: true
 ---
-
 no acecha
-por los bordes de la cama
+            por los bordes de la cama
 me lo quitaste
-nunca fue para mi
+           nunca fue para mi
 ya no me
-come la sangre
+     come la sangre
 por dentro
-ni mastica el vórtice
+            ni mastica el vórtice
 de mi corazón
 se fue de las esquinas
 dejó los árboles
-cansó su aliento
+   cansó su aliento
 borró su sombra
-tragó su humo
+         tragó su humo
 yo lo quería para siempre
-para mi, en el atolladero
-de la espera
+    para mi, en el atolladero
+    de la espera
 sostenidos por apenas
 una duda
 brevemente se me hizo
-adorable
+                         adorable
 su existencia
 como la nieve que encharca/
-como cachorro de bestia;
-todo condenado
-al barro y al tiempo
+                  como cachorro de bestia;
+                 todo condenado
+        al barro y al tiempo
 no es para mí
-tómalo y escóndelo
-para no encontrarlo
+             tómalo y escóndelo
+        para no encontrarlo
 por más que lo busque
-por más que intuya
+   por más que intuya
 su presencia
-o bótalo
+    o bótalo
 o quémalo
-o por lo menos que se calle
+               o por lo menos que se calle
