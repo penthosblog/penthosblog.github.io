@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="page">
+  <h1>{{ page.title }}</h1>
+  <p class="lede">{{ site.author }} · @ahrsml</p>
+  <div class="about">
+    <div class="avatar"><img class="flor" src="{{ '/assets/img/flor.png' | relative_url }}" alt=""></div>
+    <div class="prose bio">{{ content }}</div>
+  </div>
+  <ul class="links">
+    <li><a href="https://www.youtube.com/@plusadenda" target="_blank" rel="noopener">Plus Adenda <small>youtube ↗</small></a></li>
+    <li><a href="https://open.spotify.com/intl-es/album/6X4Yn9JkprzrAJ4TkT6QO9" target="_blank" rel="noopener">Modelo Termomecánico <small>spotify ↗</small></a></li>
+    <li><a href="https://github.com/ahrsml" target="_blank" rel="noopener">GitHub <small>@ahrsml ↗</small></a></li>
+  </ul>
+  <details class="bib">
+    <summary>Referencias bibliográficas (MLA)</summary>
+    <p class="lede" style="margin:12px 0 0;font-size:15px">Cada vez que digo algo, casi siempre referencio alguno de estos textos. Para ordenar mis bibliografías utilizo Zotero. Esta lista está siempre creciendo.</p>
+    <ol>
+      {%- for r in site.data.bibliografia.referencias %}
+      <li>{{ r | escape }}</li>
+      {%- endfor %}
+    </ol>
+  </details>
+</div>

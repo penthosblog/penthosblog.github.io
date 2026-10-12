@@ -1,0 +1,20 @@
+title: penthos
+description: cuadernos de vigilia
+author: Adolfo Rosas
+url: https://penthosblog.github.io
+baseurl: ""
+lang: es
+
+permalink: /:title/
+markdown: kramdown
+timezone: America/Santiago
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - .pages.yml

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Archivo
+permalink: /archivo/
+---
+<div class="page">
+  <h1>Archivo</h1>
+  <p class="lede">{{ site.posts | size }} entradas.</p>
+  {%- assign por_anio = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {%- for anio in por_anio %}
+  <div class="year">{{ anio.name }}</div>
+  <div class="arch">
+    {%- for post in anio.items %}
+    <a href="{{ post.url | relative_url }}"><time>{{ post.date | date: "%m" }}</time><span>{{ post.title }}</span></a>
+    {%- endfor %}
+  </div>
+  {%- endfor %}
+</div>

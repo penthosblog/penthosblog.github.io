@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<section class="hero">
+  <div>
+    <h1>penthos<em>.</em></h1>
+    <p>{{ site.description }}</p>
+  </div>
+  <img class="flor" src="{{ '/assets/img/flor.png' | relative_url }}" alt="">
+</section>
+
+{%- assign tipos = site.posts | map: "tipo" | uniq %}
+<div class="filters">
+  <button class="chip on" data-k="todo">todo</button>
+  {%- for t in tipos %}
+  <button class="chip" data-k="{{ t }}">{{ t }}</button>
+  {%- endfor %}
+</div>
+
+<ul class="list">
+  {%- for post in site.posts %}
+  <li class="item" data-k="{{ post.tipo }}">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{% include fecha.html date=post.date corta=true %}</time>
+    <div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.content | strip_html | normalize_whitespace | truncate: 220 }}</p>
+    </div>
+    <span class="tag {{ post.tipo }}">{{ post.tipo }}</span>
+  </li>
+  {%- endfor %}
+</ul>
+
+<script>
+document.querySelectorAll(".chip").forEach(function (c) {
+  c.onclick = function () {
+    document.querySelectorAll(".chip").forEach(function (x) { x.classList.toggle("on", x === c); });
+    document.querySelectorAll(".item").forEach(function (it) {
+      it.hidden = c.dataset.k !== "todo" && it.dataset.k !== c.dataset.k;
+    });
+  };
+});
+</script>

@@ -1,0 +1,69 @@
+# Configuración de Pages CMS (app.pagescms.org)
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: entradas
+    label: Entradas
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, tipo, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: date
+        label: Fecha
+        type: date
+        required: true
+      - name: tipo
+        label: Tipo
+        type: select
+        default: ensayo
+        options:
+          values: [ensayo, poesía, bitácora]
+      - name: body
+        label: Texto
+        type: text
+
+  - name: sobre
+    label: Sobre el autor
+    type: file
+    path: sobre.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: sobre
+      - name: title
+        label: Título
+        type: string
+      - name: permalink
+        type: string
+        hidden: true
+        default: /sobre/
+      - name: body
+        label: Bio
+        type: text
+
+  - name: bibliografia
+    label: Bibliografía
+    type: file
+    path: _data/bibliografia.yml
+    format: yaml
+    fields:
+      - name: referencias
+        label: Referencias (MLA)
+        type: string
+        list: true

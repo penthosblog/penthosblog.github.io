@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{%- assign palabras = content | number_of_words -%}
+{%- assign minutos = palabras | divided_by: 200 | at_least: 1 -%}
+<article class="post">
+  <a class="back" href="{{ '/' | relative_url }}">← todas las entradas</a>
+  <header>
+    <span class="tag {{ page.tipo }}">{{ page.tipo }}</span>
+    <h1>{{ page.title }}</h1>
+    <div class="meta"><span>{% include fecha.html date=page.date %}</span><span>~{{ minutos }} min</span></div>
+  </header>
+  <div class="prose{% if page.tipo == 'poesía' %} verse{% endif %}">
+    {{ content }}
+  </div>
+  <nav class="post-nav">
+    {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><small>← anterior</small><span>{{ page.previous.title }}</span></a>{% else %}<div></div>{% endif %}
+    {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><small>siguiente →</small><span>{{ page.next.title }}</span></a>{% endif %}
+  </nav>
+</article>

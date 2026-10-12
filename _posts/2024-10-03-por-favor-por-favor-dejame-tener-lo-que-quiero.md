@@ -1,0 +1,25 @@
+---
+title: "Por favor, por favor, déjame tener lo que quiero"
+date: 2024-10-03
+tipo: ensayo
+---
+
+Tengo una relación reciente y extraña con el clásico de The Smiths “Please, Please, Please, Let Me Get What I Want”. Hace años, evidentemente, conozco la banda, a los miembros más polémicos y las canciones más conocidas. Esta en particular dura poquísimo, el arreglo es más menos sencillo y podría definirse como una de las canciones más paradigmáticas de la banda: un clamor necesitado, un tono lastimero, unas dosis de autocompasión.
+
+Lo que me interesa es la construcción de este clamor. Oculta, a mi parecer, más que una dinámica romántica medio platónica, medio masoquista. El compositor de la canción, Morrissey, es hijos de inmigrantes irlandeses en Inglaterra. Tuvo una crianza católica, conservadora y llena de soledad. El texto de la canción -digamos, la letra- está permeada de los grandes motivos del catolicismo. Motivos que todos quienes crecimos en una cultura católica podemos identificar.
+
+Propongo que en “Please, Please, Please, Let Me Get What I Want”, el ser amado no es otro que la sombra del cristo. Incluso, es tal la cualidad del dios encarnado católico, que diría incluso que el título de “amado” es cuestionable.
+
+Aquellos más apegados a la praxis católica tradicional reconocerán en la presencia-ausencia del dios concededor-castigador una constante en la vida del devoto y un monolito en la práctica religiosa organizada. En las épocas tempranas del desarrollo, la idea de un ser total, completo,voyerista y todopoderoso que acecha al niño en todo momento, que al mismo tiempo te ama y es capaz de castigarte por la eternidad si no obedeces resulta ominosa.
+
+Crecimos y odiamos con las vísceras a nuestro dios coronado, al mesías hebreo, al sol romano canonizado. Pero jamás pudimos renegar que su sangre -de la cual bebimos- es también nuestra sangre. No es, entonces, posible desaprender ese amor, esa presencia. Como todo aquello que nos configura, siempre vuelve a aparecer. En el caso extremadamente particular de esta canción -podríamos hablar en otra ocasión de la imbricación católica en la música de The Smiths- cuando se ruega por la satisfacción del deseo, no se le ruega solo a quien deseamos. Rogamos a quien exclusivamente podría dar aquello que se desea.
+
+Es también parte del canon católico la traslación amor romántico/amor místico. O mejor dicho: el amor místico que antecede y supera al amor romántico. Es evidente a lo largo de la carrera de Morrissey el motivo católico de la martirización sebastiana, icono reutilizado a destajo por las disidencias sexuales y su correspondiente ahínco erótico. El dolor es parte de nuestros ritos occidentales y los hemos remezclado tantas veces, usado tantas veces, detestado tantas veces, que solo puede seguir apareciendo. El desprecio por la crianza atemorizada del dios católico es el calco de todo cuánto puede aparecer en los textos de Morrissey. El homoerotismo, la ambigüedad genérica, la mirada perdida en el éxtasis de la muerte… nada de esto es nuevo, nada de esto se puede abandonar.
+
+La sublimación de lo católico opera en el juego de la ausencia/presencia, elemento prominente en “Please…”. ¿Cómo no evocar la imagen de un chiquillo arrodillado pidiéndole a una estatua del Cristo por todo lo que quiere y no puede? “Cristo Salvador, Rey de Reyes, Primo Imperator Mundi, quítame estas ideas maricas”. ¿Les suena plausible? Hasta qué edad rezó Morrissey no importa, porque jamás dejó de hacerlo en la práctica.
+
+“Please…” es otra forma de rogativa, antecedida de un par de versos que constatan la propia miseria. Hace tiempo no sueño. La vida que he tenido puede malear al hombre bueno. Y en el juego de las recompensas por el sufrimiento, así como el cielo después de una vida de dolor, el dios hebreo monoteísta debería conceder. Creo que en estas operaciones ambiguas resalta la diferencia entre lo posible para un agloprotestante y lo posible para un católico. El protestante está obsesionado con la culpa eterna; el católico entiende que su culpa es el apéndice de una institución diseminada en catedrales y telas púrpuras. El católico tiene la Confesión, tiene el imaginario plagado de santas, putas, de vírgenes. Y el católico interesante se relaciona de maneras complejas con toda la población celestial.
+
+En “Please…” Morrissey cristaliza parte importante de sus motivos y temas recurrentes de manera magistral. Leer su música desde este prisma abre preguntas fundamentales para entender su obra, a mi juicio. ¿Y si todo amor que no nos parece mundano es realmente divino? Cuando Morrissey escribe más allá de lo estrictamente concreto, abre una ventana a los símbolos que lo colman. Tenemos mucho que aprender de eso: de la vida que le damos a lo que nos hiere, a lo que nos puede matar. Las formas complejas que adquiere el amor en “Please…” en sus menos de dos minutos de duración son testimonio de que la confusión religioso-erótica da para labrarla hasta el infinito.
+
+Revisa la playlist [aquí](https://www.youtube.com/playlist?list=PLI1UvUJhAfhvY1UTZe6YLAwfp7ccU0cFx).
