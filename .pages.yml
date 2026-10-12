@@ -11,7 +11,7 @@ content:
     format: yaml-frontmatter
     filename: "{year}-{month}-{day}-{primary}.md"
     view:
-      fields: [title, tipo, date]
+      fields: [title, tipo, published, date]
       primary: title
       sort: [date, title]
       default:
@@ -31,9 +31,50 @@ content:
         type: select
         default: ensayo
         options:
-          values: [ensayo, poesía, bitácora]
+          values: [ensayo, bitácora]
+      - name: published
+        label: Publicado (apagado = borrador)
+        type: boolean
+        default: true
       - name: body
         label: Texto
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+
+  - name: poesia
+    label: Poesía
+    type: collection
+    path: poesia/_posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, published, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: date
+        label: Fecha
+        type: date
+        required: true
+      - name: tipo
+        type: string
+        hidden: true
+        default: poesía
+      - name: published
+        label: Publicado (apagado = borrador)
+        type: boolean
+        default: true
+      - name: body
+        label: Poema
         type: text
 
   - name: sobre
@@ -55,7 +96,10 @@ content:
         default: /sobre/
       - name: body
         label: Bio
-        type: text
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
 
   - name: bibliografia
     label: Bibliografía
