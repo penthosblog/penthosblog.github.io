@@ -23,7 +23,8 @@ layout: default
     <time datetime="{{ post.date | date_to_xmlschema }}">{% include fecha.html date=post.date corta=true %}</time>
     <div>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.content | strip_html | normalize_whitespace | truncate: 220 }}</p>
+      {%- assign primera = post.content | strip_html | normalize_whitespace | split: " " | first %}
+      <p>{{ primera }} <a class="mas" href="{{ post.url | relative_url }}" aria-label="leer {{ post.title }}">…</a></p>
     </div>
     <span class="tag {{ post.tipo }}">{{ post.tipo }}</span>
   </li>

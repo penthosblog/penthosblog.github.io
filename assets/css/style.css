@@ -61,7 +61,11 @@ main{max-width:980px;margin:0 auto;padding:0 20px 80px}
 .item h2 a{color:var(--texto)}
 .item:hover h2 a{color:var(--azul-lavanda)}
 .hero>div,.item>div{min-width:0}
-.item p{margin:0;color:var(--texto-suave);font-size:15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.item p{margin:0;color:var(--texto-suave);font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.item{position:relative;cursor:pointer}
+.item h2 a::after{content:"";position:absolute;inset:0}
+.item .mas{position:relative;z-index:1;color:var(--texto-suave);letter-spacing:.1em}
+.item:hover .mas,.item .mas:hover{color:var(--azul-lavanda)}
 .tag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:2px;white-space:nowrap}
 .tag.ensayo{color:var(--azul-lavanda);background:rgba(55,107,191,.14)}
 .tag.poesía{color:var(--lavanda);background:rgba(157,150,192,.14)}
