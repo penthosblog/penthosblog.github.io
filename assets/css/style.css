@@ -75,6 +75,9 @@ main{max-width:980px;margin:0 auto;padding:0 20px 80px}
 .meta{font-variant-numeric:tabular-nums;font-size:13px;color:var(--texto-tenue);display:flex;gap:16px;flex-wrap:wrap}
 .prose p{margin:0 0 1.3em}
 .prose.verse p{white-space:pre-wrap;line-height:1.85;margin-bottom:1.8em}
+.prose.verse{tab-size:4}
+.prose.verse pre{white-space:pre-wrap;line-height:1.85;margin:0 0 1.8em;padding-left:4ch;font:inherit;color:inherit;background:none}
+.prose.verse pre code{font:inherit;background:none;padding:0}
 .prose h3{font-size:15px;font-weight:500;color:var(--azul-lavanda);letter-spacing:.05em;margin:2.4em 0 1em}
 .prose h3::before{content:"// ";color:var(--texto-tenue)}
 .prose em{color:#e6e4f2}

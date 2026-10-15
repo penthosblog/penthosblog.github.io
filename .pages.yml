@@ -75,7 +75,10 @@ content:
         default: true
       - name: body
         label: Poema
-        type: text
+        type: code
+        options:
+          format: markdown
+          lineWrapping: true
 
   - name: sobre
     label: Sobre el autor
